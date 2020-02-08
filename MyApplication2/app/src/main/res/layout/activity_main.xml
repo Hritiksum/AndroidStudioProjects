@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/mytext1"
+        android:text="Add two Numbers"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mynum1"
+        android:hint="Enter First Number"
+        android:layout_margin="20dp"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mynum2"
+        android:hint="Enter Second Number"
+        android:layout_margin="20dp"
+        android:inputType="number"
+
+        />
+    <TextView
+        android:id="@+id/mytext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        />
+
+    <Button
+        android:id="@+id/mybtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onClick"
+        android:text="Get Answer" />
+
+</LinearLayout>
